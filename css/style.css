@@ -1,3 +1,10 @@
+/*
+	 Customized css file
+	 Author: Praveen
+	 Last modified: 13th may 2016
+
+*/
+/* Applying styles for menu bar  */
 nav li{
 	display:inline;
 	margin: 0;
@@ -10,23 +17,30 @@ nav li{
 	text-transform: uppercase;
 
 }
+
+/* Anchor tag as button  */
 .btn{
 	background-color:#73AD21;
 	padding:6px;
 	color: white;
 }
+
+/* hero-unit image  */
 .hero-unit{
 	background: url("../images/img3.jpg") no-repeat;
 	background-color: black;
 	height: 500px;
- 	}
+}
+
+/* For Content on top of hero-unit image  */
 .hero-unit h1,.hero-unit h2{
 	color: White;
-	text-shadow: 6px 19px 12px rgba(0, 0, 0, 0.8);
+	text-shadow: 6px 19px 12px rgba(0, 0, 0, 0.8);/* To add shadow to text  */
 	text-align: left;
 	margin: 0px 160px 90px 75px ;
 	font-size: 30px;
 }
+
 .hero-unit p{
 	color: White;
 	text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.8);
@@ -34,16 +48,20 @@ nav li{
 		margin: -70px 160px 90px 75px ;
 	font-size: 30px;
 }
+
+/* Aanchor inside a paragraph  */
 p a:hover{
 	color: gray;
 }
-header{
 
+/* Header layout  */
+header{
 	margin-top:20px;
 	margin-bottom: 20px;
 	border: 2px solid #E3E3E3;
-
 }
+
+/* Header styles  */
 header h1{
 	margin: 0;
 	color: #343434;
@@ -54,40 +72,41 @@ header h1{
 	text-transform: uppercase;
 	text-shadow: 0 2px white, 0 3px #777;
 }
+
+/* Headings of grids  */
 .main-header{
 	font-size: 30px;
 }
 
 .mySlide{
-
     border: 2px solid #E3E3E3;
     padding: 20px;
 }
+
+/*  Read more button */
 .button{
 	background:#242324;
 	padding:6px;
 	color: white;
-
 }
+
 nav{
 	float:right;
 }
-.callout{
-	background:white;
-	height:231px;
-}
+
+/* Content layout  */
 .main{
 	margin-top:20px;
 }
 
+/* Footer Layout  */
 footer{
 	clear:both;
 	bottom:2px;
 	right:10px;
 	float: right;
-
-
 }
+
 a{
 	text-decoration:none;
 	color:black;
@@ -96,10 +115,13 @@ a{
 	display:inline;
 
 }
-a:hover{
 
+/* Changing color on hover  */
+a:hover{
 	color:#1ABC9C;
 }
+
+/* Text alignment of paragraph  */
 p{
 	text-align: justify;
 }
